@@ -7,7 +7,7 @@ const command: {
   handler: (context: any, argv: any) => any
   builder?: CommandBuilder
 } = {
-  command: 'generate-fragments',
+  command: 'gen-fragments',
   describe: 'Generate fragments',
 
   builder: {
